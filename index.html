@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/styles.css"/>
+</head>
+<body>
+    <header>
+        <section id="menu">
+            <div id="Github">
+                <img src="./logos/github en blanc.png" alt="logo github">
+                
+            </div>
+            <div id="linkedin">
+                <img src="./logos/Sans titre.png">
+                
+            </div>
+            <div id="Discord">
+                <img src="./logos/discord.png" alt="logo discord">
+                
+            </div>
+            <div id="Contact">
+                <img src="./logos/Sans titre.jpeg" atl="logo contact">
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="Présentation">
+            <h1>Stephane Desray</h1>
+            <p>Jeune Developpeur reconverti, en formation developpeur fullstack au Centre Européen de Formation, je suis ouvert a toutes propositions de stages en entreprises.J'ai commencé a me former en juin de cette année et peut donc adapter mon apprentissage en fonction des technologie demander.
+                Je suis passionné par le developpement web et je souhaite en faire mon métier.
+            </p>
+        </section>
+        <section id="content">
+            <div id="A propos">
+                <h1>A propos</h1>
+                <p>une phrases pour meubler</p>
+            </div>
+            <div id="Création">
+                <h1>Création</h1>
+                <p>une phrases pour meubler</p>
+            </div>
+            <div class="contactez-nous">
+                <h1>Contactez-nous</h1>
+                <p>Un problème, une question, envie de nous envoyer un message d amour ? N hésitez pas à utiliser ce formulaire pour prendre contact avec nous !</p>
+                <form action="/page-traitement-donnees" method="post">
+            <div>
+                <label for="nom">Votre nom</label>
+                <input type="text" id="nom" name="nom" placeholder="Stéphane" required>
+            </div>
+            <div>
+                <label for="email">Votre e-mail</label>
+                <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+            </div>
+            <div>
+                <label for="sujet">Quel est le sujet de votre message ?</label><br/>
+                <select name="sujet" id="sujet" required>
+                    <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+                    <option value="contact proffessionnel">contact proffessionnel</option>
+                    <option value="probleme-technique">Problème technique</option>
+                    <option value="autre">Autre...</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Votre message</label>
+                <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+            </div>
+            <div>
+                <button type="submit">Envoyer mon message</button>
+            </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
